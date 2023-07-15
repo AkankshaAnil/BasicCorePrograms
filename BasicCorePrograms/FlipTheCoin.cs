@@ -4,7 +4,7 @@ namespace BasicCorePrograms
 {
     internal class FlipTheCoin
     {
-        public void FlipCoin()
+        public static void FlipCoin()
         {
             Console.WriteLine("Flip the Coin Program");
             double heads = 0;
