@@ -6,7 +6,7 @@ internal class Program
     {
         Console.WriteLine("Flip coin Program");
         Console.WriteLine("Hello User!\nPlease Enter the index no. of the program you want to run.");
-        Console.WriteLine("1.Flip the Coin\n2.Leap Year\n3.Power Of 2\n4.HarmonicNumber");
+        Console.WriteLine("1.Flip the Coin\n2.Leap Year\n3.Power Of 2\n4.HarmonicNumber\n5.Factors");
 
         int option = Convert.ToInt32(Console.ReadLine());
         switch (option)
@@ -22,6 +22,9 @@ internal class Program
                 break;
             case 4:
                 HarmonicNumber.PrintHarmonicNumber();
+                break;
+                case 5: 
+                    Factors.PrintPrimeFactors();    
                 break;
             default:
                 Console.WriteLine("Please Enter a Valid Index No.");
