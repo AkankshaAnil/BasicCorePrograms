@@ -6,7 +6,7 @@ internal class Program
     {
         Console.WriteLine("Flip coin Program");
         Console.WriteLine("Hello User!\nPlease Enter the index no. of the program you want to run.");
-        Console.WriteLine("1.Flip the Coin\n2.Leap Year\n3.Power Of 2\n4.HarmonicNumber\n5.Factors\n6.Quotient And Remainder\n7.Swap Number\n8.Even & Odd\n9.Vowel Or Consonant");
+        Console.WriteLine("1.Flip the Coin\n2.Leap Year\n3.Power Of 2\n4.HarmonicNumber\n5.Factors\n6.Quotient And Remainder\n7.Swap Number\n8.Even & Odd\n9.Vowel Or Consonant\n10. Largest Among Three Number");
 
         int option = Convert.ToInt32(Console.ReadLine());
         switch (option)
@@ -37,6 +37,9 @@ internal class Program
                 break;
                 case 9:
                     VowelOrConsonant.DetermineVowelOrConsonant();
+                break;
+                case 10:
+                    LargestNumber.SearchLargestNumber();
                 break;
             default:
                 Console.WriteLine("Please Enter a Valid Index No.");
